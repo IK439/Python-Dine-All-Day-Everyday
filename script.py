@@ -51,7 +51,6 @@ class Menu:
                 print(f"Warning: {purchased_item} not found in menu.")
         return ("£{0:.2f}".format(bill))
 
-
 early_bird = {
     'cheese board': 8.00,
     'garden salad with rolls (serves 2, no refills)': 14.00,
@@ -132,6 +131,7 @@ panini_menu = Menu(
     800,
     2000
 )
+
 panini_place = Franchise('439 Panini Avenue', [panini_menu])
 panini = Business("Panini all day, everyday", [panini_place])
 
